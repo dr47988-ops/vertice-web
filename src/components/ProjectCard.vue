@@ -124,18 +124,23 @@ watch(
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
 }
 
-/* Contenedor de la imagen */
+/* Contenedor de imagen mejorado */
 .project-card__image {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  aspect-ratio: 16 / 10;
+  height: 340px;
+  padding: 14px;
   overflow: hidden;
-  background: #101b2d;
+  background: linear-gradient(
+    145deg,
+    #0a1426,
+    #142b49
+  );
 }
 
-/* Imagen completa, sin recortes */
+/* Imagen completa y centrada */
 .project-card__image img {
   display: block;
   width: 100%;
@@ -145,7 +150,7 @@ watch(
   transition: transform 0.3s ease;
 }
 
-/* Animación de la imagen */
+/* Animación suave */
 .project-card:hover img {
   transform: scale(1.02);
 }
@@ -160,6 +165,7 @@ watch(
   width: 100%;
   height: 100%;
   color: #aabbd0;
+  text-align: center;
 }
 
 .project-card__placeholder span {
@@ -273,6 +279,11 @@ p {
 
 /* Tablets */
 @media (max-width: 1000px) {
+  .project-card__image {
+    height: 300px;
+    padding: 12px;
+  }
+
   .project-card__content {
     padding: 26px;
   }
@@ -285,7 +296,8 @@ p {
 /* Teléfonos */
 @media (max-width: 600px) {
   .project-card__image {
-    aspect-ratio: 16 / 10;
+    height: 260px;
+    padding: 10px;
   }
 
   .project-card__content {

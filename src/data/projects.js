@@ -6,7 +6,7 @@ export const projects = [
     category: 'Desarrollo web',
     description:
       'Sitio web para un emprendimiento de productos personalizados, sublimación y papelería creativa.',
-    image: '/projects/mey-artes-final.webp',
+    image:'/projects/mey-artes-responsive.png',
     imageAlt:
       'Vista previa del proyecto web Mey Artes, emprendimiento de sublimación y papelería creativa.',
     technologies: ['Vue 3', 'JavaScript', 'CSS'],
@@ -19,7 +19,7 @@ export const projects = [
     category: 'Aplicación móvil',
     description:
       'Aplicación móvil para acompañar a las familias durante los primeros 24 meses de vida de sus bebés.',
-    image: '/projects/babybloom-final.webp',
+    image:'/projects/babybloom-portafolio.png',
     imageAlt:
       'Vista previa de BabyBloom, aplicación móvil para acompañar a familias con bebés.',
     technologies: ['React Native', 'Expo', 'TypeScript'],
