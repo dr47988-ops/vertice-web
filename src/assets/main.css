@@ -1,0 +1,75 @@
+
+/* Configuración general */
+:root {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #ffffff;
+  background-color: #080d18;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tamaños consistentes */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Desplazamiento entre secciones */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 0;
+}
+
+/* Configuración del cuerpo */
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+/* Formularios */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Enlaces */
+a {
+  color: inherit;
+}
+
+/* Contenedor principal */
+#app {
+  min-height: 100vh;
+}
+
+/* Separación en computadora */
+#servicios,
+#portafolio,
+#contacto,
+#proceso,
+#por-que-elegirnos {
+  scroll-margin-top: 85px;
+}
+
+/* Tablets y celulares */
+@media (max-width: 900px) {
+  #servicios,
+  #portafolio,
+  #contacto,
+  #proceso,
+  #por-que-elegirnos {
+    scroll-margin-top: 150px;
+  }
+}
+
+/* Accesibilidad: reducir movimiento */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
