@@ -6,7 +6,7 @@ import { services } from '@/data/services'
 const router = useRouter()
 
 const whatsappNumber = '50664031202'
-const email = 'dr47988@gmail.com'
+const email = 'contacto.verticeweb@gmail.com'
 
 const navigation = [
   { label: 'Inicio', id: 'inicio' },

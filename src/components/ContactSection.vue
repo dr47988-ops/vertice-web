@@ -8,7 +8,7 @@ const route = useRoute()
 
 // Datos de contacto de Vértice Web
 const whatsappNumber = '50664031202'
-const contactEmail = 'dr47988@gmail.com'
+const contactEmail = 'contacto.verticeweb@gmail.com'
 
 const form = reactive({
   name: '',
