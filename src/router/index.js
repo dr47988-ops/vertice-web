@@ -6,6 +6,7 @@ import HomeView from '../views/HomeView.vue'
 const siteTitle =
   'Vértice Web | Diseño Web y Desarrollo de Software en Costa Rica'
 
+
 const routes = [
   {
     path: '/',
@@ -15,7 +16,16 @@ const routes = [
       title: siteTitle,
     },
   },
+  {
+    path: '/babybloom/privacidad',
+    name: 'babybloom-privacidad',
+    component: () => import('../views/BabyBloomPrivacidadView.vue'),
+    meta: {
+      title: 'Política de Privacidad | BabyBloom',
+    },
+  },
 ]
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
